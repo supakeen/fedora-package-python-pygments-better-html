@@ -1,6 +1,6 @@
 Name:           python-pygments-better-html
 Version:        0.1.4
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Better line numbers for Pygments HTML
 
 License:        BSD
@@ -42,5 +42,8 @@ Summary: %{summary}
 %license LICENSE
 
 %changelog
+* Mon Jun 13 2022 Python Maint <python-maint@redhat.com> - 0.1.4-2
+- Rebuilt for Python 3.11
+
 * Mon Feb 21 2022 supakeen <cmdr@supakeen.com> - 0.1.4-1
 - Initial version of the package.
